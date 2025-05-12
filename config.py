@@ -15,7 +15,7 @@ rf_params = {
     "max_depth": None,
     "min_samples_split": 2,
     "min_samples_leaf": 1,
-    "max_features": "auto",
+    "max_features": None,
     "class_weight": None,
     "random_state": random_state
 }
@@ -26,7 +26,7 @@ rf_param_dist = {
     "max_depth": [None, 10, 20, 30],
     "min_samples_split": [2, 5, 10],
     "min_samples_leaf": [1, 2, 4],
-    "max_features": ["auto", "sqrt", "log2"],
+    "max_features": [None, "sqrt", "log2"],
     "class_weight": [None, "balanced"]
 }
 search_cv_params = {
@@ -45,3 +45,11 @@ logreg_params = {
     "class_weight": None,
     "random_state": random_state
 }
+
+# RandomizedSearchCV settings for logistic regression
+logreg_param_dist = {
+    "C": [0.01, 0.1, 1, 10, 100, 1000, 10000],
+    "penalty": ["l2"],
+    "class_weight": [None, "balanced"]
+}
+
