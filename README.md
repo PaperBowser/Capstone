@@ -30,3 +30,12 @@ minority class (All-Star players).
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
+3. Open the notebooks in Jupyter or your IDE to explore the workflow.
+
+## Python Version
+
+Tested on Python 3.10
+
+## Author
+
+Paul Fox
