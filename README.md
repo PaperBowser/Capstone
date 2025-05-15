@@ -7,6 +7,7 @@ F1 score.
 ## Project Structure
 
 - `data/`: Contains raw, processed, and reference datasets.
+- `docs/`: Contains submissions for each WGU task. Stored for centralization and context, not for use in the project.
 - `models/`: Stores the final saved model and any associated scalers.
 - `notebooks/`: Contains Jupyter notebooks for data preparation, model comparison, and evaluation.
 - `config.py`: Stores project settings and hyperparameters.
